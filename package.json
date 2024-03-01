@@ -9,7 +9,10 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240222.0",
+    "typescript": "^5.3.3"
+  },
   "dependencies": {
     "@strapi/plugin-cloud": "4.20.3",
     "@strapi/plugin-i18n": "4.20.3",
